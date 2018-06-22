@@ -317,7 +317,8 @@ public class ProdutoView extends javax.swing.JFrame {
             MarcaDAO dao = new MarcaDAO(); //alterar
             List<Marca> objetos = dao.selecionar(); // alterar
 
-            if (!objetos.isEmpty()) {
+            if (!objetos.isEmpty()) 
+            {
                 for (Marca objeto : objetos) {//alterar a classe
                     //alterar definir o que vai em cada linha - 1 linha para cada atributo exibido na tabela
                     //System.out.println(objeto);
